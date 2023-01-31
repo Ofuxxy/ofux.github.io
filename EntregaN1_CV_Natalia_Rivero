@@ -1,1 +1,83 @@
+<!DOCTYPE htlm>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>CV Argentina Programa 4.0</title>
+        <base href="/">
+        <link rel="stylesheet" href="./style.css" type="text/css">
 
+    </head>
+        <body>
+    
+            <header> 
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Proyectos</li>
+                        <li>Contacto</li>
+
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="hero">
+                    <h1> Natalia Rivero</h1> 
+                    <h2>Estudiante Multimedial</h2>
+                </section>
+
+                <section id="Proyectos de Diseño">
+                    <h2>Proyectos de Diseño</h2>
+                    <div class="lista-proyectos">
+                    
+                    <div class="detalles-proyectos">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/55e281153442533.63300e52206b5.png">
+                       <h3>Proyecto 1- Blender, Photoshop</h3>
+                        <a href="https://www.behance.net/gallery/153442533/_">URL Behance</a>
+                    </div>
+
+                    <div class="detalles-proyectos2">
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3d16fd154067543.Y3JvcCwxMjgwLDEwMDEsMCwxMzk.jpg">
+                       <h3>Proyecto 2 - Blender</h3>
+                        <a href="https://www.behance.net/gallery/154067543/lil-house">URL Behance</a>
+                    </div>
+
+                    <div class="detalles-proyectos">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/317bc2150641585.62fdcd4fcb912.jpg">
+                       <h3>Proyecto 3- Blender, Photoshop</h3>
+                        <a href="https://www.behance.net/gallery/150641585/Macs-poster">URL Behance</a>
+                    </div>
+
+                    <div class="detalles-proyectos2">
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/b30fd1128320523.Y3JvcCwxOTIwLDE1MDEsMCwyMDk.png">
+                       <h3>Proyecto 4 - Blender, Photoshop</h3>
+                        <a href="https://www.behance.net/gallery/128320523/_">URL Behance</a>
+                    </div>
+
+                    </div>
+                </section>
+                <section id="Contacto">
+                    <form>
+                        <div>
+                            <label>Nombre</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Asunto</label>
+                            <input type="text" placeholder="Escriba su asunto aquí">
+                        </div>
+                        <div>
+                            <label>Mensaje</label>
+                            <textarea></textarea>
+                        </div>
+                        <button>Enviar</button>
+                    </form>
+                </section>
+            </main>
+            <footer>Gracias por todo!</footer>
+    
+    
+    
+    </body>
+</html>
